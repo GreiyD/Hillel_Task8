@@ -1,11 +1,11 @@
 <?php
 
-use App\Shortener\Service\UrlConverter;
-use App\Shortener\Repository\FileRepository;
-use App\Shortener\Helpers\Validation\UrlValidator;
-use App\ORM\Model\UrlConverterRepository;
+use App\http\WebHandler;
 use App\ORM\ActiveRecord\DatabaseAR;
-use App\Shortener\Helpers\http\WebHandler;
+use App\ORM\Model\UrlConverterRepository;
+use App\Shortener\Helpers\Validation\UrlValidator;
+use App\Shortener\Repository\FileRepository;
+use App\Shortener\Service\UrlConverter;
 
 return [
     'services' => [

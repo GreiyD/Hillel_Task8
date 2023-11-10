@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Shortener\Helpers\http;
+namespace App\http;
 
 use App\Shortener\Service\UrlConverter;
 use Exception;
+
 class WebHandler
 {
     protected object $urlConverter;

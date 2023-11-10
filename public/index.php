@@ -3,7 +3,7 @@
 use App\DI\Container;
 
 require_once '../vendor/autoload.php';
-$config = require_once __DIR__ . '/../src/DI/config.php';
+$config = require_once __DIR__ . '/../configs/configDI.php';
 
 $container = new Container();
 
